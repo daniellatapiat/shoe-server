@@ -18,6 +18,11 @@ def goodbye(name):
 def pingpong():
     return "pong!\n"
 
+#Test n.1
+@app.route("/test")
+def pingpong():
+    return "OK!\n"
+
 
 if __name__ == "__main__":
     app.run(debug=False)
