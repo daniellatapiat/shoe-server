@@ -20,7 +20,7 @@ def pingpong():
 
 #Test n.1
 @app.route("/test")
-def pingpong():
+def test():
     return "OK!\n"
 
 
